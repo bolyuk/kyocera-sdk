@@ -18,6 +18,8 @@ I'm lazy, so most of the SDK relies on proxies and reflection.
   
 - System resource mapping (icons, labels) (untestet)
   
+- Сontrolling backlight and LED indicators (brightness, color, flashing)
+  
 ## Work in progress
 - Key event listener interfaces
 
