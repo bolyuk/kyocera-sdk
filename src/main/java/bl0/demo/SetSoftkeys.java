@@ -9,8 +9,8 @@ public class SetSoftkeys {
         KCfpSoftkeyGuide softkeyGuide = KCfpSoftkeyGuide.getProxyInstance(window);
 
         softkeyGuide.setText(KCfpSoftkeyGuide.INDEX_SK1, "LEFT");
-        softkeyGuide.setText(KCfpSoftkeyGuide.INDEX_SK2, "CENTER");
-        softkeyGuide.setText(KCfpSoftkeyGuide.INDEX_CSK, "RIGHT");
-        softkeyGuide.show();
+        softkeyGuide.setText(KCfpSoftkeyGuide.INDEX_SK2, "RIGHT");
+        softkeyGuide.setText(KCfpSoftkeyGuide.INDEX_CSK, "CENTER");
+        softkeyGuide.invalidate();
     }
 }
