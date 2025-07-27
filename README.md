@@ -1,3 +1,7 @@
+> **Important:**  
+> The complete codebase is maintained in the `master` branch.  
+> This `main` branch serves solely for documentation and informational purposes.
+
 ## About
 
 This is an unofficial SDK for the Kyocera 701KC Android phone, created by reverse-engineering system apps and services.  
