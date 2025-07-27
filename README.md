@@ -7,6 +7,8 @@
 This is an unofficial SDK for the Kyocera 701KC Android phone, created by reverse-engineering system apps and services.  
 Useful for building native-style apps that interact with Kyocera-specific features (like softkeys, endkey behavior, system dialogs, etc.).
 
+I'm lazy, so most of the SDK relies on proxies and reflection.  
+
 ⚠️ Work in progress. Some features may not work on other models or firmware versions.
 
 ## Features
