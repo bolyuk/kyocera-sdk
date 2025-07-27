@@ -1,5 +1,6 @@
 package bl0.jp.kyocera.internal.kyoceralights;
 
+import bl0.sdk.kyocera701.annotations.Untested;
 import bl0.sdk.kyocera701.utils.KyoceraProxy;
 
 public interface KyoceraLights {
@@ -34,14 +35,19 @@ public interface KyoceraLights {
     int KC_NEWMAIL_KEYILLUMI_PATT_1 = -981368447;
     int KC_WAKEUP_KEYILLUMI_PATT_1 = -1048477311;
 
+    @Untested
     void pulse(int var1, int var2, int var3);
 
+    @Untested
     void setBrightness(int var1, int var2, int var3);
 
+    @Untested
     void setColor(int var1, int var2);
 
+    @Untested
     void setFlashing(int var1, int var2, int var3, int var4, int var5);
 
+    @Untested
     void turnOff(int var1);
 
     static KyoceraLights getProxyInstance() {

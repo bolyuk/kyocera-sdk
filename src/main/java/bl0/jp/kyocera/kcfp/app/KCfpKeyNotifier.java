@@ -1,7 +1,7 @@
 package bl0.jp.kyocera.kcfp.app;
 
 import android.content.Context;
-import bl0.sdk.kyocera701.permissions.RootNeeded;
+import bl0.sdk.kyocera701.annotations.RootNeeded;
 import bl0.sdk.kyocera701.utils.KyoceraProxy;
 
 public interface KCfpKeyNotifier {

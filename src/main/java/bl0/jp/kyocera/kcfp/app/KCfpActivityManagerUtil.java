@@ -1,10 +1,13 @@
 package bl0.jp.kyocera.kcfp.app;
 
+import bl0.sdk.kyocera701.annotations.Untested;
 import bl0.sdk.kyocera701.utils.KyoceraProxy;
 
 public interface KCfpActivityManagerUtil {
+    @Untested
     void resetEndKeyBehavior(android.app.Activity activity);
 
+    @Untested
     void setEndKeyBehavior(android.app.Activity activity, int keyCode);
 
     void setEndKeyBehavior(android.app.Activity activity, int keyCode, String msg);
